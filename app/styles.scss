@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tutorial {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  & > * {
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  input {
+    margin-top: 10px;
+    padding: 8px 14px;
+    border: 1px solid rgb(139, 139, 139);
+    outline: none;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 8px 14px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(211, 125, 69);
+  }
+}
